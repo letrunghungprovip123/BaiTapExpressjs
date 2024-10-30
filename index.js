@@ -9,6 +9,6 @@ app.use(express.json());
 
 app.use(rootRoutes);
 
-app.listen(8081, () => {
-  console.log("Listening in port 8081");
+app.listen(8080, () => {
+  console.log("Listening in port 8080");
 });
